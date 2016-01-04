@@ -1,0 +1,19 @@
+﻿Compilación iniciada a las 03/11/2015 12:18:36.
+     1>Proyecto "C:\Users\usuario\Desktop\P8\DenseLinearsolver\DenseLinearsolver\DenseLinearsolver.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt eTimer.cpp Source.cpp
+         Source.cpp
+     1>c:\users\usuario\desktop\p8\denselinearsolver\denselinearsolver\source.cpp(23): warning C4101: 'inicio' : variable local sin referencia
+     1>c:\users\usuario\desktop\p8\denselinearsolver\denselinearsolver\source.cpp(23): warning C4101: 'fin' : variable local sin referencia
+         eTimer.cpp
+     1>c:\users\usuario\desktop\p8\denselinearsolver\denselinearsolver\etimer.cpp(14): warning C4101: 'count' : variable local sin referencia
+         Generando código...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\usuario\Desktop\P8\DenseLinearsolver\Debug\DenseLinearsolver.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Intel\Composer XE 2015\mkl\lib64" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mkl_core.lib mkl_sequential.lib mkl_intel_lp64.lib cusolver.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\usuario\Desktop\P8\DenseLinearsolver\Debug\DenseLinearsolver.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\usuario\Desktop\P8\DenseLinearsolver\Debug\DenseLinearsolver.lib" /MACHINE:X86 Debug\eTimer.obj
+         Debug\Source.obj
+     1>LINK : fatal error LNK1104: no se puede abrir el archivo 'mkl_core.lib'
+     1>Compilación del proyecto terminada "C:\Users\usuario\Desktop\P8\DenseLinearsolver\DenseLinearsolver\DenseLinearsolver.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:02.09
